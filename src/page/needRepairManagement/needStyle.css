@@ -1,0 +1,220 @@
+.nTopBarStyle{
+
+    display: flex;
+    height: 70px;
+    width: 100%;
+    box-shadow: 0 3px 5px 0 rgba(51, 51, 51, 0.1);
+    overflow: hidden;
+}
+.topLogo{
+    width: 70px;
+    height: 55px;
+    margin: 5px;
+}
+.topChange{
+    display: flex;
+    padding-left: 400px;
+}
+.topChangeB{
+    padding: 10px;
+    text-align: center;
+    margin: 10px 20px 10px 40px;
+}
+.topChangeB:hover{
+    color: #075dcc;
+    border-bottom:  2px solid #3a72b6;
+}
+.holeNeedPage{
+    height: auto;
+    width: 1200px;
+    /*margin: 90px 100px 0 100px;*/
+}
+.holeStep{
+    display: flex;
+    justify-content: center;
+}
+.StepItem{
+    position: relative;
+    display: inline-block;
+    width: 230px;
+    height: 24px;
+    text-align: center;
+    color: #01040a;
+    border-top: 1px solid #c9c9c9;
+    margin: 20px;
+}
+.StepText{
+    position: absolute;
+    width: 100px;
+    display: inline-block;
+    font-size: 13px;
+    left: 200px;
+    top: 18px;
+}
+.StepActive{
+    color: #078000;
+    border-color: #0bf801;
+}
+
+.StepPoint{
+    position: absolute;
+    margin: 10px 15px 15px 15px;
+    width: 12px;
+    height: 12px;
+    left: 225px;
+    top: -20px;
+    border: 2px solid #c7c7c7;
+    border-radius: 50%;
+}
+.pointActive{
+    border: 5px solid #eafcee;
+    background-color: #078000;
+}
+.StepItem:first-child{
+    border: none;
+}
+.holeNePaCon{
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+}
+.needPhoto{
+    width: 400px;
+    height: 285px;
+    margin-top: 80px;
+}
+.ContentHead{
+    padding: 30px 0 40px 0;
+    width: 650px;
+    border-bottom: 1px solid #a2a2a2;
+    margin-bottom: 20px;
+}
+.type{
+    font-size: 30px;
+    margin: 20px;
+}
+.i2TitleType{
+    position: relative;
+    font-size: 14px;
+    line-height: 20px;
+    top: -20px;
+}
+.i2InType{
+    position: relative;
+    font-size: 12px;
+    color: #3d3c3c;
+    line-height: 20px;
+}
+.Content span{
+    font-size: 16px;
+    color: #333333;
+}
+.aChanItem{
+    display: inline-block;
+    height: 40px;
+    width: 166px;
+    text-align: center;
+    margin: 20px;
+    border: 1px solid #b7b7b7;
+    border-radius: 5px;
+    line-height: 40px;
+  }
+
+.hActive:hover{
+    border: 1px solid #232323;
+    background-color: #dcdbdb;
+}
+.cliActive{
+    color: #046500;
+    border-color: #046500;
+}
+.holeItem{
+    position: relative;
+}
+
+.Item1Ch{
+    display: flex;
+    position: relative;
+}
+.aChanItem2{
+    width: 740px;
+    background-color: #ecebeb;
+    border-radius: 10px;
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    position: relative;
+}
+.item2Content{
+    width: 200px;
+    height: 163px;
+    background-color: white;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 14px;
+    padding: 10px;
+}
+.newI2Content{
+    border: 1px solid #046500;
+}
+
+.item2Content img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: 183px;
+    top: -10px;
+}
+.item2Content:hover{
+    cursor: pointer;
+}
+.aChanItem:hover{
+    cursor: pointer;
+}
+.handOnPage{
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    height: 118px;
+    margin-left: 100px;
+}
+.littleTip{
+    color: #046500;
+}
+.littleTip img{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    margin: 10px;
+}
+.handOnButton{
+    width: 160px;
+    height: 40px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #046500;
+    border-radius: 10px;
+    padding-top: 15px;
+    color: white;
+    margin: 50px;
+}
+.handOnButton:hover{
+    cursor: pointer;
+    background-color: rgb(55, 94, 55);
+}
+
+.successHandOn{
+    position: relative;
+    top: 100px;
+    left: 60%;
+}
+.successTxt{
+    font-size: 20px;
+    display: block;
+    position: absolute;
+    left: 40px;
+    margin: 20px;
+}
